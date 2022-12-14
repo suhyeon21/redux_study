@@ -1,6 +1,6 @@
 import { useSelector, useDispatch } from 'react-redux';
 //reducer 이름을 키로 가진 객체 형식
-import { counterActions } from '../store/index';
+import { counterActions } from '../store/counterSlice';
 import classes from './Counter.module.css';
 
 const Counter = () => {
